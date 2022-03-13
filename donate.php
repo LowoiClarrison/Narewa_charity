@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -134,30 +133,13 @@
                                 <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter lastname" required="required" />
                                 <div class="control-group">
                                     <input type="email" class="form-control" id="email" name="email" placeholder="Email" required="required" />
+                                    <h3>Mpesa Paybill 22002200</h3>
+                                    <p>Account Narewa</p>
                                 </div>
-                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-custom active">
-                                        <input type="radio" name="options" checked> $10
-                                    </label>
-                                    <label class="btn btn-custom">
-                                        <input type="radio" name="options" id="amount"> $20
-                                    </label>
-                                    <label class="btn btn-custom">
-                                        <input type="radio" name="options" id="amount"> $30
-                                    </label>
-                                    <label class="btn btn-custom">
-                                    <input type="radio" name="options"> $50
-                                    </label>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="code" name="mpesacode" placeholder="Mpesa Code" required="required" />
                                 </div>
-                                    <?php
-                                    if(isset($success_message)){
-                                    echo '<div class="success_message">'.$success_message.'</div>';
-                                    }
-                                      if(isset($error_message)){
-                                      echo '<div class="error_message">'.$error_message.'</div>';
-                                      }
-                                    ?>
-                                <div>
+                                
                                     <button class="btn btn-custom" type="submit">Donate Now</button>
                                 </div>
                             </form>
